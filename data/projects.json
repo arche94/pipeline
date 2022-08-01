@@ -1,0 +1,26 @@
+{
+  "0000_test": {
+    "CODE": "0000_test",
+    "FPS": 24,
+    "NAME": "Test Project",
+    "PATH": "Y:/_projects/0000_test"
+  },
+  "0001_gmb": {
+    "CODE": "0001_gmb",
+    "FPS": 24,
+    "NAME": "Gameboy",
+    "PATH": "Y:/_projects/0001_gmb"
+  },
+  "0002_pfh": {
+    "CODE": "0002_pfh",
+    "FPS": 24,
+    "NAME": "Python for Houdini Artists",
+    "PATH": "Y:/_projects/0002_pfh"
+  },
+  "0003_rfc2": {
+    "CODE": "0003_rfc2",
+    "FPS": 24,
+    "NAME": "Rebelway FX Challenge 2022",
+    "PATH": "Y:/_projects/0003_rfc2"
+  }
+}
