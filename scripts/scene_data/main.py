@@ -202,5 +202,9 @@ def onCreated(kwargs):
   node.setGenericFlag(hou.nodeFlag.Display, False)
   node.setGenericFlag(hou.nodeFlag.Selectable, False)
 
-  node.parm('project').set(hou.getenv('PROJECT'))
-  node.parm('scene').set(hou.getenv('SCENE'))
+  proj = hou.getenv('PROJECT')
+  if proj:
+    node.parm('project').set(proj)
+    scene = hou.getenv('SCENE')
+    if scene:
+      node.parm('scene').set(scene)
