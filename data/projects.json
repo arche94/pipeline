@@ -22,5 +22,11 @@
     "FPS": 24,
     "NAME": "Rebelway FX Challenge 2022",
     "PATH": "Y:/_projects/0003_rfc2"
+  },
+  "0004_awf": {
+    "CODE": "0004_awf",
+    "FPS": 24,
+    "NAME": "Advanced Water FX",
+    "PATH": "Y:/_projects/0004_awf"
   }
 }
