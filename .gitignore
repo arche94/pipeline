@@ -1,2 +1,2 @@
 hdas/backup/* 
-scripts/*/__pychache__/*
+*.pyc
