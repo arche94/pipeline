@@ -6,5 +6,6 @@
   "scripts_path": "pipeline/scripts",
   "scene_save_path": "scenes",
   "scene_output_path": "playblasts",
-  "scene_render_path": "renders"
+  "scene_render_path": "renders",
+  "scene_material_path": "material"
 }
