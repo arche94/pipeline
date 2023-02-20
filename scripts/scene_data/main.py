@@ -172,6 +172,7 @@ def set_scene(kwargs):
   utils.createDirAndSetVar('SAVE_PATH', utils.fix_path(os.path.join(cur_scene_path, config['scene_save_path'])))
   utils.createDirAndSetVar('OUTPUT_PATH', utils.fix_path(os.path.join(cur_scene_path, config['scene_output_path'])))
   utils.createDirAndSetVar('RENDER_PATH', utils.fix_path(os.path.join(cur_scene_path, config['scene_render_path'])))
+  utils.createDirAndSetVar('MATERIAL_PATH', utils.fix_path(os.path.join(cur_scene_path, config['scene_material_path'])))
   utils.createDirAndSetVar('CACHE_PATH', utils.fix_path(os.path.join(config['cache_path'], node.evalParm('var_code'), config['scenes_path'], scene_key)))
 
   node.cook(True)
