@@ -28,5 +28,29 @@
     "FPS": 24,
     "NAME": "Advanced Water FX",
     "PATH": "Y:/_projects/0004_awf"
+  },
+  "0006_ctd": {
+    "CODE": "0006_ctd",
+    "FPS": 24,
+    "NAME": "City Destruction",
+    "PATH": "Y:/_projects/0006_ctd"
+  },
+  "0007_thd": {
+    "CODE": "0007_thd",
+    "FPS": 24,
+    "NAME": "Thanos Decimation",
+    "PATH": "Y:/_projects/0007_thd"
+  },
+  "9998_ohp": {
+    "CODE": "9998_ohp",
+    "FPS": 24,
+    "NAME": "One Hour Projects",
+    "PATH": "Y:/_projects/9998_ohp"
+  },
+  "9999_rnd": {
+    "CODE": "9999_rnd",
+    "FPS": 24,
+    "NAME": "RnD",
+    "PATH": "Y:/_projects/9999_rnd"
   }
 }
