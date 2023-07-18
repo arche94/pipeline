@@ -329,7 +329,7 @@ def save_backup(node):
       )
       hou.parm('hipfile_error').set(kwargs['error'])
 
-    utils.showMessage(report)
+    # utils.showMessage(report)
     return
   
   def error_report(message, severity=hou.severityType.Error):

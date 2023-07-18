@@ -101,14 +101,15 @@ def getBakeOptions():
 
     return hou.ui.readMultiInput("Camera bake options",buttons=("Cancel", "OK"), default_choice=1, close_choice=0, help=helpMessage, input_labels=inputLabels, initial_contents=inputDefaults)
 
-for n in selection:
-    usrSettings = getBakeOptions()
+def bake_cameras():
+  for n in selection:
+      usrSettings = getBakeOptions()
 
-    if usrSettings[0] == 1:
-        settings = {
-            "frameStart": int(usrSettings[1][0]),
-            "frameEnd": int(usrSettings[1][1]),
-            "offset": int(usrSettings[1][2])
-        }
-        new_cam = create_camera(n)
-        keyframe_parms(n, new_cam, settings)
+      if usrSettings[0] == 1:
+          settings = {
+              "frameStart": int(usrSettings[1][0]),
+              "frameEnd": int(usrSettings[1][1]),
+              "offset": int(usrSettings[1][2])
+          }
+          new_cam = create_camera(n)
+          keyframe_parms(n, new_cam, settings)
