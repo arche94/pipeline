@@ -18,6 +18,7 @@ camera_baker.bake_cameras()]]></script>
 
   <toolshelf name="arche_shelf" label="Arche Utils">
     <memberTool name="project_management"/>
+    <memberTool name="scene_setup"/>
     <memberTool name="save_scene"/>
     <memberTool name="camera_baker"/>
   </toolshelf>
@@ -38,5 +39,15 @@ from save_scene import main as save
 importlib.reload(save)
 
 save.save_scene(kwargs)]]></script>
+  </tool>
+
+  <tool name="scene_setup" label="Scene Setup" icon="Y:/pipeline/shelves/icons/scene_setup.png">
+    <script scriptType="python"><![CDATA[import hou
+import importlib
+
+from scene_setup import main as scene_setup
+importlib.reload(scene_setup)
+
+scene_setup.start()]]></script>
   </tool>
 </shelfDocument>
