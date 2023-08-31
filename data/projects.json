@@ -1,0 +1,56 @@
+{
+  "0000_test": {
+    "CODE": "0000_test",
+    "FPS": 24,
+    "NAME": "Test Project",
+    "PATH": "Y:/_projects/0000_test"
+  },
+  "0001_gmb": {
+    "CODE": "0001_gmb",
+    "FPS": 24,
+    "NAME": "Gameboy",
+    "PATH": "Y:/_projects/0001_gmb"
+  },
+  "0002_pfh": {
+    "CODE": "0002_pfh",
+    "FPS": 24,
+    "NAME": "Python for Houdini Artists",
+    "PATH": "Y:/_projects/0002_pfh"
+  },
+  "0003_rfc2": {
+    "CODE": "0003_rfc2",
+    "FPS": 24,
+    "NAME": "Rebelway FX Challenge 2022",
+    "PATH": "Y:/_projects/0003_rfc2"
+  },
+  "0004_awf": {
+    "CODE": "0004_awf",
+    "FPS": 24,
+    "NAME": "Advanced Water FX",
+    "PATH": "Y:/_projects/0004_awf"
+  },
+  "0006_ctd": {
+    "CODE": "0006_ctd",
+    "FPS": 24,
+    "NAME": "City Destruction",
+    "PATH": "Y:/_projects/0006_ctd"
+  },
+  "0007_thd": {
+    "CODE": "0007_thd",
+    "FPS": 24,
+    "NAME": "Thanos Decimation",
+    "PATH": "Y:/_projects/0007_thd"
+  },
+  "9998_ohp": {
+    "CODE": "9998_ohp",
+    "FPS": 24,
+    "NAME": "One Hour Projects",
+    "PATH": "Y:/_projects/9998_ohp"
+  },
+  "9999_rnd": {
+    "CODE": "9999_rnd",
+    "FPS": 24,
+    "NAME": "RnD",
+    "PATH": "Y:/_projects/9999_rnd"
+  }
+}
